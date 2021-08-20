@@ -218,16 +218,3 @@ span.a-badge i.fa.fa-info-circle {
 .btn-primary {
   background: #4f36ac !important;
 }
-/* 마우스 커서 포인터 */
-
-html,
-body,
-.fr-popup.emoticons,
-.fr-top,
-select.form-control,
-input[type=checkbox],
-input[type=radio],
-.opt
- {
- cursor: url(https://cdn.discordapp.com/attachments/871015507254452266/878176256565342208/tngusl_cursor.png) 0 0, auto !important;
-}
