@@ -33,9 +33,9 @@ header #header-bar>.row {
 
 header .row>div:nth-child(1)>a {
   display: block;
-  width: 165px;
-  height: 55px;
-  background: url('https://cdn.discordapp.com/attachments/877523173279686719/878479961919475782/2.png') no-repeat;
+  width: 205px;
+  height: 60px;
+  background: url('https://cdn.discordapp.com/attachments/877523173279686719/878528063552499732/-24.png') no-repeat;
   background-size: auto 50px;
 }
 
