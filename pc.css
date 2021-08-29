@@ -282,7 +282,7 @@ cursor: url(https://cdn.discordapp.com/attachments/877523173279686719/8814675215
     content: url(https://cdn.discordapp.com/attachments/877523173279686719/881487167300464660/5535c59a-b39e-4648-8ed2-7f04b2044d21-profile_image-300x300.png);
     height: 100px;
 	position: relative;
-    top: -100%;
+    top: -80%;
 
 }
 /* 프로필 위치 이동, 프로필 테두리 추가 시작 */
