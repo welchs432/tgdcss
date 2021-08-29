@@ -273,22 +273,3 @@ input[type='text']
 {
 cursor: url(https://cdn.discordapp.com/attachments/877523173279686719/881467521507659776/tngusl_cursor_2_.png) 0 0, auto !important;
 }
-
-#board-info #board-info-profile-img {
-    width: auto;
-    border-radius: 50%;
-    background-size: contain;
-    border: none;
-    content: url(https://cdn.discordapp.com/attachments/877523173279686719/881487167300464660/5535c59a-b39e-4648-8ed2-7f04b2044d21-profile_image-300x300.png);
-    height: 100px;
-	position: relative;
-    top: -100%;
-}
-
-/* 프로필 위치 이동, 프로필 테두리 추가 시작 */
-
-#board-info img{
-	float:left !important;
-}
-
-/* 프로필 위치 이동, 프로필 테두리 추가 끝 */
