@@ -60,7 +60,7 @@ header .row>div:nth-child(1)>a>img {
  content: "명 빳빳해지는중";
 }
 
-#board-info #viewers-area .fa-user:after {
+#board-info #viewers-area:after {
  content: url(https://i.ibb.co/T2X6m7J/image.png);
 }
 
