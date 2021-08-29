@@ -52,6 +52,10 @@ header .row>div:nth-child(1)>a>img {
   content: "뷰x단 ";
 }
 
+#board-info #viewers-area .fa-user:before {
+ content: url(https://i.ibb.co/4KhSPLt/image.png);
+}
+
 #board-info #viewers-area #viewers:after {
  content: "명 빳빳해지는중";
 }
