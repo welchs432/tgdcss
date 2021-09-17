@@ -68,12 +68,15 @@ header .row>div:nth-child(1)>a>img {
 
 header #right-search-form>input[type='text'] {
   border: 3px solid #4f36ac;
+  border-radius: 15px 15px;
 }
 
 /* 트게더 전체메뉴 / 유용한링크 / 트위치 스케쥴 */
 
 #main .menu-wrapper>.header {
-  background: #4f36ac;
+  border-radius: 10px 10px 0px 0px;
+  border-top: none;
+  border-right: none
 }
 
 .fa-navicon:before,
@@ -91,10 +94,13 @@ header #header-bar>.row,
 #main #main-content>div.frame {
   border-right: none;
   border-bottom: none;
+  border-radius: 15px 15px 0px 0px;
 }
 
 #main .menu-wrapper {
   border: none;
+  border-right: none;
+  border-bottom: none;
 }
 
 /* 헤더 검색 버튼 */
