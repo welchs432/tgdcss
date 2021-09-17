@@ -36,7 +36,7 @@ header .row>div:nth-child(1)>a {
   width: 205px;
   height: 60px;
   background: url('https://cdn.discordapp.com/attachments/877523173279686719/888399587100991488/5de8ab354156b048.png') no-repeat;
-  background-size: auto 80px;
+  background-size: auto 60px;
 }
 
 header .row>div:nth-child(1)>a>img {
