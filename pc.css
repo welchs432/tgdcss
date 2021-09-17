@@ -74,6 +74,7 @@ header #right-search-form>input[type='text'] {
 /* 트게더 전체메뉴 / 유용한링크 / 트위치 스케쥴 */
 
 #main .menu-wrapper>.header {
+  color: #4f36ac;
   border-radius: 10px 10px 0px 0px;
   border-top: none;
   border-right: none
