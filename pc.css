@@ -308,6 +308,9 @@ cursor: url(https://cdn.discordapp.com/attachments/877523173279686719/8814675215
 #board-info {
     overflow: visible;
 }
+#board-info-bottom {
+	margin-top: 5px;
+}
 
 #board-info #board-info-profile-img{
     float: left !important;
