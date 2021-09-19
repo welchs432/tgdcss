@@ -1,9 +1,25 @@
+/*전체 폰트 사이즈 키우기(일정 크기 이상 하면 템플릿 깨짐)*/
+body,table,div,p{font-size:14px}
+
+/*폰트 적용(상업 무료 사이트에서 복사후 아랫줄 폰트 패밀리 붙여넣기)*/
+@font-face {
+    font-family: 'IBMPlexSansKR-Text';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Text.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*{font-family:'IBMPlexSansKR-Text'} 
+
+
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+/*배경화면 배경색(PNG파일의 경우)*/
 html {
  background-image: linear-gradient(to bottom, #fffff7, #fceed5);
   height: auto !important;
 }
 
+/* 배경 이미지 삽입*/
 body {
 letter-spacing: -0.05em !important;
   background: transparent;
@@ -50,14 +66,19 @@ header .row>div:nth-child(1)>a>img {
 
 #board-info #viewers-area #viewers:before {
   content: "뷰x단 ";
+  font-weight: bold;
 }
 
+#board-info #viewers-area #viewers {
+font-weight: bold;
+}
 #board-info #viewers-area .fa-user:before {
  content: url(https://i.ibb.co/MZL6R1L/image.png);
 }
 
 #board-info #viewers-area #viewers:after {
  content: "명 빳빳해지는중";
+ font-weight: bold;
 }
 
 #board-info #viewers-area:after {
@@ -280,3 +301,52 @@ input[type='text']
 {
 cursor: url(https://cdn.discordapp.com/attachments/877523173279686719/881467521507659776/tngusl_cursor_2_.png) 0 0, auto !important;
 }
+
+
+/*프로필*/
+
+#board-info {
+    overflow: visible;
+}
+
+#board-info #board-info-profile-img{
+    float: left !important;
+    margin-right: 5px;
+    border-radius: 100px;
+    border: solid 1px #fdafab;
+}
+#board-info #viewers-area {
+    float: right;
+    margin-right: 20px;
+}
+
+/*프로필*/
+#board-info #board-info-profile-img {
+    width: 100px;
+	border-radius: 50%;
+    background-size: contain;
+    border: none;
+    height: 100px;
+position: relative;
+top: -65%;
+width: auto;
+}
+
+
+/*짤리는거*/
+#article-list > .article-list-row > .item > .list-title > .list-category > span {
+    line-height: 1.5 !important;
+}
+
+#article-info > h2 > span.category {
+    line-height: 1.5;
+
+}
+
+/*트로피색변경*/
+.fa.fa-trophy, #board-info #score-area {color: #4f36ac;}
+
+#board-info h1>a {
+color: #4f36ac;
+}
+;
